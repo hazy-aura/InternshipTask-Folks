@@ -1,0 +1,130 @@
+.bgimg1 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Rectangle 2-1.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    height: 400px; 
+  }
+  
+
+  .nav-tabs .nav-item .nav-link {
+    border: none;
+}
+
+/* Add a bottom border to the active tab */
+.nav-tabs .nav-item.show .nav-link {
+    border-bottom: 2px solid #007bff; /* Change the color as needed */
+}
+
+.articleBorder{
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+
+
+.text-grey{
+    color: #8c8c8c;
+}
+
+.font38{
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+}
+
+.font16px{
+    font-size: 16px;
+    font-weight: 500;
+    word-spacing: -0.046em;  
+}
+
+.font20px{
+    line-height: 24px;
+    font-size: 20px; 
+    font-weight: 600;
+    word-spacing: -0.046em;  
+}
+/* 
+AAAdddddd */
+.modal-backdrop {
+    opacity: 0.5 !important;
+}
+
+.signup-modal {
+    display: none;
+}
+.modal-content{
+    
+   
+}
+
+.modal-body{
+    width: max-content;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 80px;
+}
+
+@media (max-width: 768px) {
+    .modal-body {
+        /* Add your custom styles for small screens here */
+        width: 90%; /* Adjust the width as needed */
+        margin-top: 20px; /* Adjust the margin-top as needed */
+    }
+}
+    /* signup signin css */
+    .typo{
+        font-family: IBM Plex Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: 0px;
+        text-align: right;
+        
+        font-family: IBM Plex Sans;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: right;
+        
+        font-family: IBM Plex Sans;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: right;
+        
+    }
+    .typo1{
+    font-family: IBM Plex Sans;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.008em;
+    text-align: right;
+    
+    opacity: 0.6px;
+    
+    
+    }
+    
+    .typo2{
+     
+    
+    
+    
+    font-family: IBM Plex Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.008em;
+    text-align: center;
+    
+    
+    color: #000000;
+    
+    
+    }
+   
